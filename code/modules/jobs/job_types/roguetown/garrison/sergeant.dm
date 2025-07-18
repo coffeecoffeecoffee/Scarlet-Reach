@@ -7,7 +7,7 @@
 	spawn_positions = 1
 	allowed_sexes = list(MALE, FEMALE)
 	allowed_races = RACES_ALL_KINDS	//Identical to MAA.
-	disallowed_races = list(RACES_CONSTRUCT, RACES_GREENSKIN)
+	disallowed_races = list(RACES_CONSTRUCT, RACES_GREENSKIN, RACES_VERMIN)
 	allowed_patrons = NON_PSYDON_PATRONS
 	allowed_ages = list(AGE_ADULT, AGE_MIDDLEAGED, AGE_OLD)
 	tutorial = "You are the most experienced of the Crown's Soldiery, leading the men-at-arms in maintaining order and attending to threats and crimes below the court's attention. \
