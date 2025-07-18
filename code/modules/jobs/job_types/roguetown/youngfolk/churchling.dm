@@ -7,6 +7,7 @@
 	spawn_positions = 2
 
 	allowed_races = RACES_ALL_KINDS
+	disallowed_races = list(RACES_GREENSKIN, RACES_CONSTRUCT)	//allows tieflings and drow to let them play penitents/reformed, but not orcs, constructs or goblins, a bridge too far
 	allowed_sexes = list(MALE, FEMALE)
 	allowed_ages = list(AGE_ADULT)
 

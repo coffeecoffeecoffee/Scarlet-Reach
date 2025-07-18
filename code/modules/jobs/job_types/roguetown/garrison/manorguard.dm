@@ -7,7 +7,8 @@
 	total_positions = 8
 	spawn_positions = 8
 	allowed_sexes = list(MALE, FEMALE)
-	allowed_races = RACES_SHUNNED_UP
+	allowed_races = RACES_ALL_KINDS	//squires can be drow, but now we can do this while disallowing goblins
+	disallowed_races = list(RACES_CONSTRUCT, RACES_GREENSKIN)
 	allowed_patrons = ALL_PATRONS
 	allowed_ages = list(AGE_ADULT, AGE_MIDDLEAGED)
 	tutorial = "Having proven yourself loyal and capable, you are entrusted to defend the town and enforce its laws. \

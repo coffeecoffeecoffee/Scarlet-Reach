@@ -7,6 +7,8 @@
 	spawn_positions = 4
 	allowed_sexes = list(MALE, FEMALE)
 	allowed_ages = list(AGE_ADULT)
+	allowed_races = RACES_ALL_KINDS
+	disallowed_races = list(RACES_CONSTRUCT, RACES_GREENSKIN, RACES_VERMIN)	//disables orcs, goblins and vermin from squire, and thus knighthood
 	advclass_cat_rolls = list(CTAG_SQUIRE = 20)
 
 	tutorial = "Your folks said you were going to be something, they had better aspirations for you than the life of a peasant. You practiced the basics \

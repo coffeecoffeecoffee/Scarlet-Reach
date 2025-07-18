@@ -6,7 +6,8 @@
 	faction = "Station"
 	total_positions = 3
 	spawn_positions = 3
-	allowed_races = RACES_TOLERATED_UP
+	allowed_races = RACES_NEUTRAL_UP	//we can now allow aasimar knights without soulless constructs which would probably piss off the church
+	disallowed_races = list(RACES_CONSTRUCT)
 	allowed_patrons = NON_PSYDON_PATRONS
 	allowed_sexes = list(MALE, FEMALE)
 	allowed_ages = list(AGE_ADULT, AGE_MIDDLEAGED)
